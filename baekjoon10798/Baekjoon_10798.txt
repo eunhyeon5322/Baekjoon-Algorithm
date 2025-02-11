@@ -1,0 +1,10 @@
+lines = [input().strip() for _ in range(5)]
+
+result = ""
+
+for i in range(15): 
+    for line in lines:
+        if i < len(line): 
+            result += line[i]
+
+print(result)
